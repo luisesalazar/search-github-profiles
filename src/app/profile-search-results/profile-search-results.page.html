@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>Results</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <app-search-results [user]="user"></app-search-results>
+  <app-repositories *ngFor="let repo of repositories" [repository]="repo"></app-repositories>
+</ion-content>
