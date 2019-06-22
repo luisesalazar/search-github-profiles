@@ -1,5 +1,7 @@
 {
   "name": "GitHub",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
